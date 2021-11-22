@@ -20,35 +20,43 @@ h3,
 h4,
 h5,
 h6{
-    margin:0;
+    margin: 0;
 }
 ul{
     padding: 0;
     margin: 0;
 }
-
 .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 1200px;
+    padding-right:15;
+    padding-left:15;
+    margin: 0 auto;
 }
-.header-navigation,
-.header-list,
-.header-first-list{
-display: flex;
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-right: 93px;
 }
 body{
 font-family:"Roboto",sans-serif;
 }
-.header-logo{
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color:var(--accent-color);
+.header-list{
+    display: flex;
 }
+.header-item{
+    margin-right: 50px;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+.header-first-list{
+    display: flex;
+}
+.logo-second,
 .site-logo{
 font-family: Raleway;
 font-style: 400;
@@ -59,12 +67,6 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .logo-second{
-font-family: Raleway;
-font-style: 400;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19px;
-letter-spacing: 0.03em;
     color: #000;
 }
 .list{
