@@ -298,6 +298,10 @@ color:var(--first-text-color);
 background-color:var(--first-background-color) ;
 padding: 60px 0;
 }
+
+.footer-list{
+    padding-left: 0;
+}
 .footer-link{
 font-family: Roboto;
 font-style: normal;
